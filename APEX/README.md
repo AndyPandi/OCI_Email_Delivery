@@ -8,7 +8,7 @@
 
    메뉴위치 : OCI Console > Governance and Administrator > Identity > Users
 
-   ![](.\images\Config01.png)
+   ![](./images/Config01.png)
 
 2. Email Delivery Service를 사용할 User 클릭 후 상세화면의 왼쪽 아래에  `SMTP Credentials`  메뉴를 클릭한다.
 
