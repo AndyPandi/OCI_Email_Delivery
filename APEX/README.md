@@ -14,15 +14,15 @@
 
    SMTP Credentials 화면에서 ``Generate SMTP Credentials`` 버튼을 클릭한다.
 
-   ![](.\images\Config02.png)
+   ![](./images/Config02.png)
 
    임의의 Description 을 입력 후 ``Generate SMTP Credentials`` 버튼을 클릭한다.
 
-   ![](.\images\Config03.png)
+   ![](./images/Config03.png)
 
    생성된 Username 과 Password 을 사용할 수 있도록 메모
 
-   ![](.\images\Config04.png)
+   ![](./images/Config04.png)
 
 
 
@@ -32,11 +32,11 @@
 
    메뉴위치 : OCI Console > Governance and Administrator > Identity > Policies
 
-   ![](.\images\Config05.png)
+   ![](./images/Config05.png)
 
    ```Create Policy``` 버튼을 클릭합니다.
 
-   ![](.\images\Config06.png)
+   ![](./images/Config06.png)
 
    아래 Policy를 입력한 후 ```Create``` 버튼을 클릭합니다.
 
@@ -45,7 +45,7 @@
    예) Allow group Administrators to use approved-senders in compartment CTDOKE
    ```
 
-   ![](.\images\Config07.png)
+   ![](./images/Config07.png)
 
 #### Part 3. Email Approved Sender 를 입력합니다.
 
@@ -55,13 +55,13 @@
 
    메뉴위치 : OCI Console > Solutions and Platform > Email Delivery > Email Approved Senders
 
-   ![](.\images\Config08.png)
+   ![](./images/Config08.png)
 
 2. ```Create Approved Sender``` 버튼을 클릭합니다. 
 
    팝업화면에서 Email Address(이메일 발송자 주소)를 입력한 후 ```Create Approved Sender``` 버튼을 클릭합니다. 
 
-   ![](.\images\Config09.png)
+   ![](./images/Config09.png)
 
    이제 Email Delivery Service 사용을 위한 OCI 환경 생성이 끝났습니다.
 
@@ -102,7 +102,7 @@ END;
 
    이제 APEX에 접속해서 SQL Commands 메뉴로 이동합니다.
 
-   ![](.\images\APEX01.png)
+   ![](./images/APEX01.png)
 
    그리고 메일 발송을 위한 Procedure를 생성합니다.
 
@@ -127,61 +127,61 @@ END;
 
    Procedure 입력 후 ```Run``` 버튼을 클릭합니다.
 
-   ![](.\images\APEX02.png)
+   ![](./images/APEX02.png)
 
 2. 메일 발송을 위한 New Application 생성
 
    APEX App Builder 메뉴에서 ```Create``` 버튼을 클릭합니다.
 
-   ![](.\images\APEX03.png)
+   ![](./images/APEX03.png)
 
    New Application 선택
 
-   ![](.\images\APEX04.png)
+   ![](./images/APEX04.png)
 
    Name 입력 후 ```Create Application``` 버튼을 클릭합니다.
 
-   ![](.\images\APEX05.png)
+   ![](./images/APEX05.png)
 
 3. 이제 Application 이 생성되었습니다. 해당 Application 에 접속 후 메일발송 화면을 생성합니다.
 
    방금 생성한 Application 클릭 후 ```Create Page``` 버튼을 클릭합니다.
 
-   ![](.\images\APEX06.png)
+   ![](./images/APEX06.png)
 
    Page Type은 Form 을 선택합니다.
 
-   ![](.\images\APEX07.png)
+   ![](./images/APEX07.png)
 
    Form on a Local Procedure 선택
 
-   ![](.\images\APEX08.png)
+   ![](./images/APEX08.png)
 
    Page Number, Page Name, Page Mode, Page Group 선택 후 ```Next``` 버튼 클릭
 
-   ![](.\images\APEX09.png)
+   ![](./images/APEX09.png)
 
    Navigation Preference 값은 Create a new navigation menu entry 선택
 
-   ![](.\images\APEX10.png)
+   ![](./images/APEX10.png)
 
    Stored Procedure Name 에서 ```Search``` 버튼 클릭
 
-   ![](.\images\APEX11.png)
+   ![](./images/APEX11.png)
 
    앞에서 생성한 Email 발송 Procedure 선택
 
-   ![](.\images\APEX12.png)
+   ![](./images/APEX12.png)
 
    Label 입력 및 Display Type 선택
 
-   ![](.\images\APEX13.png)
+   ![](./images/APEX13.png)
 
 4. 이메일 발송 테스트
 
    이제 이메일 발송 테스트 페이지가 완성 되었습니다. 생성한 APEX 어플리케이션을 실행한 후 이메일 발송 페이지로 들어가서 메일발송을 해봅니다.
 
-   ![](.\images\APEX14.png)
+   ![](./images/APEX14.png)
 
 #### Part 5. APEX 메일발송 조회
 
@@ -199,7 +199,7 @@ END;
 
    해당 Query를 사용해 다음과 같은 메일발송 Queue 데이터를 조회하는 APEX 화면을 만들 수 있습니다.
 
-   ![](.\images\APEX15.png)
+   ![](./images/APEX15.png)
 
 2. APEX_MAIL_LOG 조회
 
@@ -215,7 +215,7 @@ END;
 
    해당 Query를 사용해 다음과 같은 이메일발송 리스트를 조회하는 APEX 페이지를 만들 수 있습니다.
 
-   ![](.\images\APEX16.png)
+   ![](./images/APEX16.png)
 
 
 
