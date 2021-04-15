@@ -4,7 +4,7 @@
 
 #### Part 1. OCI Email Delivery 설정
 
-JavaMail 을 사용한 메일발송 테스트에 앞서 OCI Email Delivery 설정이 필요한데 이 부분은 모든 예제가 동일하므로  [APEX 를 활용한 Email Delivery](./APEX) 의 Part 1 ~ Part 3 참조 하시면 됩니다.
+JavaMail 을 사용한 메일발송 테스트에 앞서 OCI Email Delivery 설정이 필요한데 이 부분은 모든 예제가 동일하므로  [APEX 를 활용한 Email Delivery](../APEX) 의 Part 1 ~ Part 3 참조 하시면 됩니다.
 
 #### Part 2. JavaMail 을 활용한 Email Delivery 사용
 
